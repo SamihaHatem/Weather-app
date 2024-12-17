@@ -1,0 +1,103 @@
+.align-content-center {
+    align-content: center !important;
+}
+
+.fs-10 {
+    font-size: 10px;
+}
+
+.Roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.fs-large {
+    font-size: large !important;
+}
+
+.banner-bg {
+    background-image: url(../images/banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.location-input {
+    background-color: #1e202b;
+    position: relative;
+    border-radius: 25px;
+}
+
+.location-input input {
+    background-color: transparent;
+    border: 0;
+    outline: none;
+}
+
+.location-input button {
+    position: absolute;
+    border-radius: 20px;
+    right: 10px;
+    height: 75% !important;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+nav ul li.selected {
+    border: 1px solid #009ad8;
+    border-radius: 20px;
+    color: #009ad8 !important;
+}
+
+nav ul li {
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+nav ul li:hover {
+    border: 1px solid #009ad8;
+    border-radius: 20px;
+    color: #009ad8 !important;
+    cursor: pointer;
+}
+
+.text-blue {
+    color: #009ad8 !important;
+}
+
+.bg-darker {
+    background-color: #262936 !important;
+}
+
+.weather-div .header{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.icon{
+    background: #00000085;
+    width: 35px;
+    height: 35px;
+    align-content: center;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.icon:hover{
+    background: #009ad8;
+    color: white !important;
+}
+
+.custom-card.bg-dark{
+    background-color: #323544 !important;
+}
+
+.w-80{
+    width: 80% !important;
+}
+
+.weather-div > div{
+    border-radius: 10px;
+    overflow: hidden;
+}
